@@ -2,7 +2,7 @@
 
 ## Why I built this
 
-I wanted a project that went a step beyond just building charts on top of clean data. So instead of starting with a tidy dataset, I picked one that was genuinely messy — around 6% missing values scattered across every column, 91 exact duplicate rows, and no patient ID to begin with — and walked it through a real pipeline: clean it, model it, query it, and finally visualize it.
+I wanted a project that went a step beyond just building charts on top of clean data. So instead of starting with a tidy dataset, I picked one that was genuinely messy around 6% missing values scattered across every column, 91 exact duplicate rows, and no patient ID to begin with  and walked it through a real pipeline: clean it, model it, query it, and finally visualize it.
 
 The dataset covers 5,200 patients across five respiratory conditions (Asthma, Bronchitis, COPD, Lung Cancer, Pneumonia), with fields on age, gender, smoking status, lung capacity, treatment type, hospital visits, and recovery outcome.
 
