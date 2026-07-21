@@ -1,4 +1,4 @@
-# Lung Disease Patient Analysis — SQL & Power BI
+<img width="1722" height="796" alt="Page 2 Lung Disease Dashboard" src="https://github.com/user-attachments/assets/175e2cb7-df1d-47eb-9f33-9b5b27134bd3" /># Lung Disease Patient Analysis — SQL & Power BI
 
 ## Business Problem
 Respiratory disease outcomes vary across patient demographics, treatment types, and lifestyle factors, and hospital administrators or clinical teams often need a clear picture of where recovery rates are strongest and weakest to prioritize resources and treatment protocols. This analysis identifies which disease types, treatment approaches, and patient groups have the best and worst recovery outcomes, and flags where data quality issues (like missing outcomes) could be distorting the picture — enabling more informed clinical and operational decisions.
@@ -68,6 +68,10 @@ Two pages, kept intentionally focused:
 **Page 1 — Patient Overview**: KPI summary (total patients, recovery rate, avg lung capacity, avg hospital visits), recovery rate by disease type, disease type distribution, and smoking status breakdown by disease — with slicers for gender, smoking status, and age group.
 
 **Page 2 — Clinical Deep-Dive**: recovery rate matrix (treatment type × disease type) with conditional-formatting heatmap shading, lung capacity by age group and disease type, recovery rate by age group, and a callout on missing-outcome data.
+
+<img width="1727" height="792" alt="Page 1 Lung Disease Dashboard" src="https://github.com/user-attachments/assets/9ba08fe5-b0a5-4d46-a92f-d5fe0284a2fd" />,
+<img width="1722" height="796" alt="Page 2 Lung Disease Dashboard" src="https://github.com/user-attachments/assets/d4fb1a18-6471-47a8-8998-36d05ab9c753" />
+
 
 
 
