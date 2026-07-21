@@ -1,4 +1,4 @@
-<img width="1722" height="796" alt="Page 2 Lung Disease Dashboard" src="https://github.com/user-attachments/assets/175e2cb7-df1d-47eb-9f33-9b5b27134bd3" /># Lung Disease Patient Analysis — SQL & Power BI
+
 
 ## Business Problem
 Respiratory disease outcomes vary across patient demographics, treatment types, and lifestyle factors, and hospital administrators or clinical teams often need a clear picture of where recovery rates are strongest and weakest to prioritize resources and treatment protocols. This analysis identifies which disease types, treatment approaches, and patient groups have the best and worst recovery outcomes, and flags where data quality issues (like missing outcomes) could be distorting the picture — enabling more informed clinical and operational decisions.
