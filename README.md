@@ -69,7 +69,7 @@ Two pages, kept intentionally focused:
 
 **Page 2 — Clinical Deep-Dive**: recovery rate matrix (treatment type × disease type) with conditional-formatting heatmap shading, lung capacity by age group and disease type, recovery rate by age group, and a callout on missing-outcome data.
 
-[Screenshot or link to live Power BI dashboard]
+
 
 ## A Note on Methodology
 The biggest judgment call in this project wasn't a chart choice — it was deciding how to handle the ~300 rows missing a recovery outcome. Imputing "No" for all of them would have been easy but would have quietly built a false narrative into every recovery number downstream. Flagging them as "Unknown" and surfacing that percentage directly on the dashboard was the more honest choice, even at the cost of one less complete-looking metric.
