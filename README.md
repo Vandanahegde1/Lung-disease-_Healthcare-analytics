@@ -21,7 +21,7 @@ The raw dataset had no patient ID, roughly 6% missing values scattered across ev
 
 - **Removed 91 exact duplicate rows**, identified by matching across all 8 columns (there was no ID to check against).
 - **Numeric fields** (`Age`, `Lung Capacity`, `Hospital Visits`) — missing values (~5.7% per column) filled with the **median**, which resists outliers better than the mean and avoids discarding otherwise-complete rows.
-- **Categorical fields** (`Gender`, `Smoking Status`, `Disease Type`, `Treatment Type`) — missing values filled with **"Unknown"** or **"Not Recorded"** rather than guessed, since there's no fair way to impute a category.
+- **Categorical fields** (`Gender`, `Smoking Status`, `Disease Type`, `Treatment Type`) — missing values filled with  **"Not Recorded"** rather than guessed, since there's no fair way to impute a category.
 - **`Recovered` (the outcome column)** — **never imputed.** Guessing recovery status would corrupt the core metric of the whole analysis. These rows were labeled "Unknown" and excluded from every recovery rate calculation.
 - Added a **Patient_ID** index column post-cleaning to serve as a stable primary key.
 
